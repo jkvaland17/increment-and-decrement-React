@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+.Main_div {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  .inc-btn {
+    padding: 1rem;
+    font-size: 2rem;
+    background-color:black;
+    color: white;
+  }
+  .dec-btn{
+    padding: 1rem;
+    font-size: 2rem;
+    background-color:black;
+    color: white;
+  }
+}
