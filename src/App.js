@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
 
-function App() {
+const App = () => {
+  const [Incrise, SetIncrise] = useState(0);
+  let updateCounter = () => {
+    SetIncrise(Incrise + 1);
+  };
+  let DecriseCounter = () => {
+    SetIncrise(Incrise - 1);
+  };
+  let handelchange = (e) => {
+    SetIncrise(e.target.value);
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Hello, world!</h1>
+      <button onClick={updateCounter}>incrise</button>
+      <h1 onChange={handelchange}>{Incrise}</h1>
+      <button onClick={DecriseCounter}>decrise</button>
     </div>
   );
-}
+};
 
 export default App;
