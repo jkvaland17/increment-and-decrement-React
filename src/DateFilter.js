@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import DateDesign from "./DateDesign";
 const DateFilter = () => {
   const [user, setUser] = useState([]);
   const fetchData = () => {
@@ -14,7 +13,6 @@ const DateFilter = () => {
   return (
     
     <div>
-    <DateDesign/>
       <table>
         <thead>
           <tr>
