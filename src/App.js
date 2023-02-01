@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./style/App.scss";
 import Header from "./Header";
+import DateFilter from "./DateFilter";
 
 const App = () => {
   const [Incrise, SetIncrise] = useState(0);
@@ -33,6 +34,7 @@ const App = () => {
         </button>
       </div>
       <div>
+      <DateFilter/>
       </div>
     </>
   );
