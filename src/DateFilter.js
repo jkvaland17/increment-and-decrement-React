@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from "react";
 const DateFilter = () => {
   const [user, setUser] = useState([]);
-  const fetchData = () => {
-    return fetch("https://63da3a9b19fffcd620c3dd70.mockapi.io/User")
-      .then((response) => response.json())
-      .then((data) => setUser(data));
+  const fetchData = async () => {
+    const response = await fetch("https://63da3a9b19fffcd620c3dd70.mockapi.io/User");
+      const data = await response.json();
+      return setUser(data);
   };
 
   useEffect(() => {
