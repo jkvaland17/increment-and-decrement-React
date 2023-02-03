@@ -1,0 +1,42 @@
+01-02-2023
+1.Introduction
+2.NPM VS NPX
+3.DOM vs Virtual DOM
+4.Folder Structure
+5.What is JSX
+6.What is Component and Types ?
+7.Functional Component
+8.Class Component - Rules of Hooks
+9.What is Props - Components and Props
+10.Props with Class Components
+11.What is State  - How its work  ?
+12.Handling - Parenthesis ( )
+13.Event Handling With This and Bind  in ReactJS
+14.What is Fragments in React
+
+02-02-2023
+Rendering Elements
+List and Keys
+React Lifecycle Methods Using Class & Functional Components
+
+
+
+
+
+ComponentMounting = useEffect
+ComponentUpdate = 
+ComponentUnMounting = 
+ComponentWillMounting = remove component
+
+
+important Hooks
+useState Hook (array distructuring) update the value
+useEffect Hook (any project component first time update and first time remove) DOM(jyare page load thay tyare first useEffect load thay)
+spread oprator (combain array value)
+React Context API
+
+03-02-2023
+useRef
+Props driling
+Context API
+useMemo
