@@ -7,10 +7,12 @@ const UseEffectEX = () => {
       console.log('useEffect Runed')
     },[data])
     let countUpdate=()=>{
-        setCount(count + 1)   
+        setCount(count + 1) 
+        console.log("countUpdate")  
     }
     let dataUpdate=()=>{
       setData("valand")
+      console.log("dataUpdate")
     }
   return (
     <div>
@@ -22,4 +24,4 @@ const UseEffectEX = () => {
   )
 }
 
-export default UseEffectEX
+export default UseEffectEX;

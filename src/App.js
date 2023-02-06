@@ -1,13 +1,15 @@
 import React from "react";
+//import StateWithObj from "./Component/StateWithObj";
 import "./style/App.scss";
 // import Header from "./Header";
 // import DateFilter from "./DateFilter";
 // import Counter from "./Component/Counter";
 // import UseMap from "./Component/UseMap";
 //import A from "./Component/A";
-//import UseEffectEX from "./Component/UseEffectEX";
-import LearnUseRef from "./Component/LearnUseRef";
-import UseMemoEx from "./Component/UseMemoEx";
+import UseEffectEX from "./Component/UseEffectEX";
+//import UseReducerEx from "./Component/UseReducerEx";
+//import LearnUseRef from "./Component/LearnUseRef";
+//import UseMemoEx from "./Component/UseMemoEx";
 const App = () => {
   return (
     <>
@@ -21,9 +23,11 @@ const App = () => {
         <Counter/>
         <UseMap/> */}
       {/* <A/> */}
-      {/* <UseEffectEX/> */}
-      <LearnUseRef />
-      <UseMemoEx />
+      <UseEffectEX/>
+      {/* <UseReducerEx/> */}
+      {/* <LearnUseRef /> */}
+      {/* <UseMemoEx /> */}
+      {/* <StateWithObj /> */}
     </>
   );
 };

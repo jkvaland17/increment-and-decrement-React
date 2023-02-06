@@ -22,13 +22,12 @@ const UseMemoEx = () => {
   };
 
   return (
-    <div>   
+    <div>
       <h1>Learning Use Memo</h1>
       <h3>Addition</h3>
       {multification}
       <br></br>
       <button onClick={AddChnger}>Addition</button>
-
       <p>{add}</p>
       <h3>Substration</h3>
       <button onClick={SubChanger}>Substration</button>
