@@ -6,10 +6,11 @@ import "./style/App.scss";
 // import Counter from "./Component/Counter";
 // import UseMap from "./Component/UseMap";
 //import A from "./Component/A";
-import UseEffectEX from "./Component/UseEffectEX";
+//import UseEffectEX from "./Component/UseEffectEX";
 //import UseReducerEx from "./Component/UseReducerEx";
 //import LearnUseRef from "./Component/LearnUseRef";
 //import UseMemoEx from "./Component/UseMemoEx";
+import UseCallBackEx from "./Component/UseCallBackEx";
 const App = () => {
   return (
     <>
@@ -23,10 +24,11 @@ const App = () => {
         <Counter/>
         <UseMap/> */}
       {/* <A/> */}
-      <UseEffectEX/>
+      {/* <UseEffectEX/> */}
       {/* <UseReducerEx/> */}
       {/* <LearnUseRef /> */}
       {/* <UseMemoEx /> */}
+      <UseCallBackEx/>
       {/* <StateWithObj /> */}
     </>
   );
